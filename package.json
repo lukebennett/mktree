@@ -1,8 +1,8 @@
 {
-  "name": "mkdirs",
-  "description": "Create a nested hierarchy of directories in one go.",
+  "name": "mktree",
+  "description": "Create a tree of directories in one go.",
   "version": "0.1.0",
-  "homepage": "https://github.com/lukebennett/mkdirs/",
+  "homepage": "https://github.com/lukebennett/mktree/",
   "author": {
     "name": "Luke Bennett",
     "email": "luke@lukebennett.com",
@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lukebennett/mkdirs.git"
+    "url": "git://github.com/lukebennett/mktree.git"
   },
-  "keywords": ["mkdir","mkdirp","directory","directories","hierarchy","nested"],
+  "keywords": ["mkdir","mkdirp","tree","directory","directories","hierarchy","nested"],
   "licenses": [
     {
       "type": "MIT",
@@ -23,6 +23,6 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/lukebennett/mkdirs/issues/"
+    "url": "https://github.com/lukebennett/mktree/issues/"
   }
 }

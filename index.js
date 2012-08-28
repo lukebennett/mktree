@@ -1,1 +1,1 @@
-module.exports = require('./lib/mkdirs.js');
+module.exports = require('./lib/mktree.js');
