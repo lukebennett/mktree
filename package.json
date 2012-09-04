@@ -1,7 +1,7 @@
 {
   "name": "mktree",
   "description": "Create a tree of directories in one go.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/lukebennett/mktree/",
   "author": {
     "name": "Luke Bennett",
@@ -11,11 +11,18 @@
   "dependencies": {
     "mkdirp": "0.3.4"
   },
+  "devDependencies": {
+    "mocha": "1.4.x",
+    "rimraf": "2.0.x"
+  },
+  "scripts": {
+    "test": "mocha -R list"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/lukebennett/mktree.git"
   },
-  "keywords": ["mkdir","mkdirp","tree","directory","directories","hierarchy","nested"],
+  "keywords": ["mkdir","mkdirp","tree","directory","directories","hierarchy","nested","tree"],
   "licenses": [
     {
       "type": "MIT",
